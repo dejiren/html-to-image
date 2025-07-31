@@ -23,7 +23,7 @@
     "svg"
   ],
   "scripts": {
-    "lint": "eslint 'src/**/*.{js,ts}?(x)' --ignore-pattern 'dist/**' --ignore-pattern 'es/**' --ignore-pattern 'lib/**' --fix",
+    "lint": "eslint 'src/**/*.{js,ts}?(x)' --fix",
     "clean": "rimraf dist es lib",
     "build:esm": "tsc --module esnext --target es2017 --outDir ./es",
     "build:cjs": "tsc --module commonjs --target es5 --outDir ./lib",

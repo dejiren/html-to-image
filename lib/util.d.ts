@@ -1,4 +1,5 @@
 import type { Options } from './types';
+
 export declare function resolveUrl(url: string, baseUrl: string | null): string;
 export declare const uuid: () => string;
 export declare function delay<T>(ms: number): (args: T) => Promise<T>;
